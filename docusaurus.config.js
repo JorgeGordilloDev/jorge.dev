@@ -11,15 +11,17 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "http://127.0.0.1:3000",
+  url: "https://jorgegordillodev.github.io/jorge.dev/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/jorge.dev/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "JorgeDev Inc", // Usually your GitHub org/user name.
-  projectName: "JorgeDev", // Usually your repo name.
+  organizationName: "JorgeGordilloDev", // Usually your GitHub org/user name.
+  projectName: "jorge.dev", // Usually your repo name.
+  deploymentBranch: "main",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
